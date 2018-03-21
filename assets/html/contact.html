@@ -31,23 +31,23 @@
 
                     <section class="divider"> </section>
                     
-                    <form class="contactform">
+                    <form class="contactform" action="mailto:ljulian@alumni.unc.edu" method="post" enctype="text/plain">
                         <p>Name</p>
                     
-                        <input type="text" placeholder="John Smith">
+                        <input type="text" name="Name" placeholder="John Smith">
                     
                         <p>Email</p>
                     
-                        <input type="text" placeholder="example@gmail.com">
+                        <input type="text" name="Email" placeholder="example@gmail.com">
                     
                         <p>Message</p>
                     
-                        <input id="messagebox" type="text" placeholder="Write your message here">
+                        <input id="messagebox" type="text" name="Message" placeholder="Write your message here">
                         
                         <br>
                         <br>
 
-                        <button>Submit</button>
+                        <input class="button" type="submit" value="Submit">
                     </form>
 
                 </section>

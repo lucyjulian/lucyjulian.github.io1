@@ -236,7 +236,7 @@ input {
     padding-bottom: 150px;
 }
 
-button {
+.button {
     color: #ffffff;
     background-color: #4aaaa5;
     font-size: 16px;
@@ -245,6 +245,7 @@ button {
     padding-left: 25px;
     padding-right: 25px;
     margin-top: 0px;
+    width: 100px;
 }
 
 #portfolio-pics {
