@@ -1,3 +1,8 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 header {
     background-color: #ffffff;
     height: 100px;
@@ -181,14 +186,17 @@ h2 {
     
     
 }
-
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -100px;
+}
 
 
 footer {
     clear: both;
     background-color: #777777;
-    position: fixed;
-    bottom: 0;
+    /* position: fixed;
+    bottom: 0; */
     width: 100%;
     border-top-width: 10px;
     border-top-color: #4aaaa5;
@@ -197,6 +205,7 @@ footer {
     margin-top: 100px;
 
 }
+
 .footer {
     text-align: center;
     font-size: 10px;
@@ -204,7 +213,9 @@ footer {
     padding: 40px;
 
 }
-
+.push {
+    height: 100px;
+}
 .center {
     width: 960px;
     margin: 0 auto;
